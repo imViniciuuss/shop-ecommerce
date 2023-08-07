@@ -52,7 +52,7 @@ export const HeroSection: React.FC = () => {
 									<h1 className='text-lg text-[#1C1C1C] font-bold'>
 										{item.product}
 									</h1>
-									<span className='#1C1C1C font-medium'>{item.price}</span>
+									<span className='#1C1C1C font-medium'>${item.price}</span>
 									<p className='text-[#8B96A5]'>{item.desc}</p>
 								</div>
 								<button
