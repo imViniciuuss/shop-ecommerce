@@ -13,7 +13,7 @@
 
 <h2>⚙️ Tecnologias</h2>
 
-  - Next.Js 13
+  - Next.js 13
   - TypesCript
   - Tailwind
 
