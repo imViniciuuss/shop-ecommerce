@@ -8,12 +8,6 @@ export interface Item {
 	desc: string;
 }
 
-export interface ItemQuantity {
-	quantity: number;
-}
-
-export type CartItemQuantity = Item & ItemQuantity;
-
 const items: Item[] = [
 	{
 		id: uuidv4(),
