@@ -3,7 +3,7 @@
 import { useCart } from '@/context/cartContext';
 import CartList from '../components/cartlist';
 
-const cart: React.FC = () => {
+const Cart: React.FC = () => {
 	const { cartItems } = useCart();
 
 	const QuantityProducts = cartItems.length;
@@ -20,4 +20,4 @@ const cart: React.FC = () => {
 	);
 };
 
-export default cart;
+export default Cart;
